@@ -400,7 +400,7 @@ export default function Page() {
         },
         {
             id: "microclimate",
-            title: "THE MICROCLIMATES OF MY COMMUTE",
+            title: "THE MICROCLIMATES OF COMMUTING",
             subtitle: "Anthropogenic Heat and Urban Design",
             theme: {
                 bg: "bg-gradient-to-br from-red-950 via-orange-900 to-amber-950",

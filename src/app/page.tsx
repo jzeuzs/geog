@@ -1,7 +1,7 @@
 "use client";
 
 import { motion, useScroll, useTransform } from "motion/react";
-import Image from "next/image";
+import ExportedImage from "next-image-export-optimizer";
 import { useRef } from "react";
 
 const containerVariants = {
@@ -78,7 +78,7 @@ function StickyScrollSection({ section, index }: StickyScrollSectionProps) {
                                         : "none",
                                 }}
                             >
-                                <Image
+                                <ExportedImage
                                     src={
                                         section.theme.visual ||
                                         "/placeholder.svg"
@@ -225,14 +225,14 @@ export default function Page() {
 
                     <div className="space-y-4">
                         <h3 className="text-cyan-300 font-bold text-sm uppercase tracking-wider">
-                            Lynchian Analysis and the Nature of Imageability
+                            Lynchian Analysis and the Nature of ExportedImageability
                         </h3>
                         <p className="text-cyan-100 text-sm leading-relaxed font-mono">
                             To understand the architecture of the mental map,
                             one must turn to the foundational work of Kevin
                             Lynch. In his text{" "}
                             <span className="italic">
-                                The Image of the City
+                                The ExportedImage of the City
                             </span>{" "}
                             (1960), Lynch argued that an individual's mental map
                             is constructed through the interaction between the
